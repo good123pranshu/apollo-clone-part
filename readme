@@ -1,0 +1,33 @@
+# how to use
+ 1. install the mongodb compass in your system
+ 2. open the mongodb compass
+ 3. create a database named "apollo-health-clone" 
+ 4. create a collection named "doctors"
+ 5. Add the data in the collection to list the doctors
+ 6. run the command npm install 
+ 7. run the command npm run dev
+ 
+ 
+# data will be in format 
+{
+  "name": "Dr. Sarah Lee",
+  "image": "https://example.com/sarah_lee_image.jpg",
+  "specialty": "Dermatology",
+  "qualification": "MBBS, MD (Dermatology)",
+  "experience": 8,
+  "consultationFee": 1200,
+  "languages": ["English", "French"],
+  "rating": 4.7,
+  "totalRatings": 95,
+  "hospital": "ABC Dermatology Clinic",
+  "location": "456 Skin Care Avenue, Midtown",
+  "state": "New York",
+  "consultationMode": ["Online Consult", "Hospital Visit"],
+  "availableSlots": 10
+}
+
+# endpoints for backend api
+Add doctor api endpoint : http://localhost:3000/api/doctors/add
+list doctors api endpoint : http://localhost:3000/api/doctors
+
+
