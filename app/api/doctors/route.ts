@@ -3,6 +3,8 @@ import { connectToDatabase } from '@/lib/db';
 import Doctor from '@/models/Doctor';
 import { experienceRanges, feeRanges } from '@/lib/constant';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(req: NextRequest) {
   try {
     await connectToDatabase();

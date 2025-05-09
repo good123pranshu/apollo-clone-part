@@ -3,6 +3,8 @@ import Breadcrumb from '@/components/Breadcrumb';
 import DoctorListing from '@/components/DoctorListing';
 import type { Metadata } from 'next';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: 'Consult General Physicians Online | Apollo Health',
   description: 'Find and book appointments with experienced general physicians and internal medicine specialists online or in-person.',
